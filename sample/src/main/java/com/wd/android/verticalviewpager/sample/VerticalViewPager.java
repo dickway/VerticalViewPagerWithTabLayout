@@ -1,4 +1,4 @@
-package fr.castorflex.android.verticalviewpager.sample;
+package com.wd.android.verticalviewpager.sample;
 
 import android.content.Context;
 import android.content.res.Resources;

@@ -1,4 +1,4 @@
-package fr.castorflex.android.verticalviewpager.sample.verticaltablayout;
+package com.wd.android.verticalviewpager.sample.verticaltablayout;
 
 
 /**

@@ -1,4 +1,4 @@
-package fr.castorflex.android.verticalviewpager.sample.verticaltablayout;
+package com.wd.android.verticalviewpager.sample.verticaltablayout;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -21,7 +21,7 @@ import android.widget.ScrollView;
 import java.util.ArrayList;
 import java.util.List;
 
-import fr.castorflex.android.verticalviewpager.sample.R;
+import com.wd.android.verticalviewpager.sample.R;
 
 /**
  * @author chqiu

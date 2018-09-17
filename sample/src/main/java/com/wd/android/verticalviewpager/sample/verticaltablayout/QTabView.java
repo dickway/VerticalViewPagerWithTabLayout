@@ -1,15 +1,14 @@
-package fr.castorflex.android.verticalviewpager.sample.verticaltablayout;
+package com.wd.android.verticalviewpager.sample.verticaltablayout;
 
 import android.content.Context;
 import android.graphics.drawable.GradientDrawable;
 import android.text.TextUtils;
 import android.view.Gravity;
-import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import fr.castorflex.android.verticalviewpager.sample.R;
+import com.wd.android.verticalviewpager.sample.R;
 
 
 /**
@@ -100,7 +99,7 @@ public class QTabView extends TabView {
         if (mTabIcon.mNormalIcon != 0) {
             mIcon.setImageResource(mTabIcon.mNormalIcon);
         } else {
-            mIcon.setVisibility(View.GONE);
+            mIcon.setVisibility(GONE);
         }
         requestContainerLayout(mTabIcon.mIconGravity);
     }
@@ -122,7 +121,7 @@ public class QTabView extends TabView {
         mBadge.setLayoutParams(lp);
         mBadge.setBackgroundDrawable(gd);
         mBadge.setText(String.valueOf(num));
-        mBadge.setVisibility(View.VISIBLE);
+        mBadge.setVisibility(VISIBLE);
     }
 
     @Override
@@ -131,7 +130,7 @@ public class QTabView extends TabView {
             setBadgeImp(num);
         } else {
             mBadge.setText("");
-            mBadge.setVisibility(View.GONE);
+            mBadge.setVisibility(GONE);
         }
         return this;
     }
@@ -220,18 +219,18 @@ public class QTabView extends TabView {
         if (mChecked) {
             mTitle.setTextColor(mTabTitle.mColorSelected);
             if (mTabIcon.mSelectedIcon != 0) {
-                mIcon.setVisibility(View.VISIBLE);
+                mIcon.setVisibility(VISIBLE);
                 mIcon.setImageResource(mTabIcon.mSelectedIcon);
             } else {
-                mIcon.setVisibility(View.GONE);
+                mIcon.setVisibility(GONE);
             }
         } else {
             mTitle.setTextColor(mTabTitle.mColorNormal);
             if (mTabIcon.mNormalIcon != 0) {
-                mIcon.setVisibility(View.VISIBLE);
+                mIcon.setVisibility(VISIBLE);
                 mIcon.setImageResource(mTabIcon.mNormalIcon);
             } else {
-                mIcon.setVisibility(View.GONE);
+                mIcon.setVisibility(GONE);
             }
         }
     }

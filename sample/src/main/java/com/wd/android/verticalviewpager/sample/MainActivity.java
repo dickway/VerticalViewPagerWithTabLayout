@@ -1,4 +1,4 @@
-package fr.castorflex.android.verticalviewpager.sample;
+package com.wd.android.verticalviewpager.sample;
 
 import android.app.Activity;
 import android.app.Fragment;
@@ -15,14 +15,15 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import com.wd.android.verticalviewpager.sample.verticaltablayout.QTabView;
+import com.wd.android.verticalviewpager.sample.verticaltablayout.VerticalTabLayout;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import fr.castorflex.android.verticalviewpager.sample.verticaltablayout.QTabView;
-import fr.castorflex.android.verticalviewpager.sample.verticaltablayout.TabAdapter;
-import fr.castorflex.android.verticalviewpager.sample.verticaltablayout.TabView;
-import fr.castorflex.android.verticalviewpager.sample.verticaltablayout.VerticalTabLayout;
+import com.wd.android.verticalviewpager.sample.verticaltablayout.TabAdapter;
+import com.wd.android.verticalviewpager.sample.verticaltablayout.TabView;
 
 public class MainActivity extends Activity {
 

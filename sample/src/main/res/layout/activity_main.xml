@@ -4,7 +4,7 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    tools:context=".MainActivity"
+    tools:context="com.wd.android.verticalviewpager.sample.MainActivity"
     tools:ignore="MergeRootFrame">
 
     <LinearLayout
@@ -12,7 +12,7 @@
         android:layout_height="match_parent"
         android:orientation="horizontal">
 
-        <fr.castorflex.android.verticalviewpager.sample.verticaltablayout.VerticalTabLayout
+        <com.wd.android.verticalviewpager.sample.verticaltablayout.VerticalTabLayout
             android:id="@+id/tablayout"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -24,7 +24,7 @@
             app:tab_height="50dp"
             app:tab_mode="scrollable" />
 
-        <fr.castorflex.android.verticalviewpager.sample.VerticalViewPager
+        <com.wd.android.verticalviewpager.sample.VerticalViewPager
             android:id="@+id/verticalviewpager"
             android:layout_width="0dp"
             android:layout_height="match_parent"
